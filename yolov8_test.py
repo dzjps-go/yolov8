@@ -60,7 +60,7 @@ def main():
     # 在 COCO128 小数据集上训练，主要用于验证训练流程能否跑通。
     model.train(
         data="coco128.yaml",    # 数据集配置：类别名、训练/验证集路径
-        epochs=2,               # 训练总轮数
+        epochs=5,               # 训练总轮数
         imgsz=320,              # 训练时的输入分辨率
         batch=2,                # 每个 batch 的图片数量
         workers=2,              # 数据加载子进程数（Windows 下建议设小）
