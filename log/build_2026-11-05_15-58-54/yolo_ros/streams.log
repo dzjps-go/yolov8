@@ -1,0 +1,31 @@
+[0.592s] Invoking command in '/home/jianmo/yolo_projet/ros2_ws/src/yolo_ros': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jianmo/yolo_projet/build/yolo_ros/prefix_override:/home/jianmo/miniconda3/envs/ros_yolo/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jianmo/yolo_projet/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/jianmo/yolo_projet/build/yolo_ros/build install --record /home/jianmo/yolo_projet/build/yolo_ros/install.log --install-scripts $base/lib/yolo_ros --single-version-externally-managed install_data
+[0.781s] running egg_info
+[0.792s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[0.793s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[0.819s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[0.819s] adding license file 'LICENSE'
+[0.820s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[0.820s] running build
+[0.820s] running build_py
+[0.820s] copying yolo_ros/image_publisher.py -> /home/jianmo/yolo_projet/build/yolo_ros/build/lib/yolo_ros
+[0.820s] copying yolo_ros/yolo_detector.py -> /home/jianmo/yolo_projet/build/yolo_ros/build/lib/yolo_ros
+[0.820s] copying yolo_ros/__init__.py -> /home/jianmo/yolo_projet/build/yolo_ros/build/lib/yolo_ros
+[0.821s] copying yolo_ros/video_publisher.py -> /home/jianmo/yolo_projet/build/yolo_ros/build/lib/yolo_ros
+[0.821s] running install
+[0.824s] running install_lib
+[0.836s] copying /home/jianmo/yolo_projet/build/yolo_ros/build/lib/yolo_ros/video_publisher.py -> /home/jianmo/yolo_projet/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[0.837s] byte-compiling /home/jianmo/yolo_projet/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/video_publisher.py to video_publisher.cpython-310.pyc
+[0.837s] running install_data
+[0.837s] copying resource/yolo_ros -> /home/jianmo/yolo_projet/install/yolo_ros/share/ament_index/resource_index/packages
+[0.837s] copying package.xml -> /home/jianmo/yolo_projet/install/yolo_ros/share/yolo_ros
+[0.838s] running install_egg_info
+[0.850s] removing '/home/jianmo/yolo_projet/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[0.851s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/jianmo/yolo_projet/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[0.851s] running install_scripts
+[0.942s] Installing image_publisher script to /home/jianmo/yolo_projet/install/yolo_ros/lib/yolo_ros
+[0.942s] Installing yolo_detector script to /home/jianmo/yolo_projet/install/yolo_ros/lib/yolo_ros
+[0.943s] writing list of installed files to '/home/jianmo/yolo_projet/build/yolo_ros/install.log'
+[0.963s] Invoked command in '/home/jianmo/yolo_projet/ros2_ws/src/yolo_ros' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/jianmo/yolo_projet/build/yolo_ros/prefix_override:/home/jianmo/miniconda3/envs/ros_yolo/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/jianmo/yolo_projet/install/yolo_ros/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/jianmo/yolo_projet/build/yolo_ros/build install --record /home/jianmo/yolo_projet/build/yolo_ros/install.log --install-scripts $base/lib/yolo_ros --single-version-externally-managed install_data

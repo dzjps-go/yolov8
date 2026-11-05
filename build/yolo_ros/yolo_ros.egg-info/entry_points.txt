@@ -1,0 +1,4 @@
+[console_scripts]
+image_publisher = yolo_ros.image_publisher:main
+video_publisher = yolo_ros.video_publisher:main
+yolo_detector = yolo_ros.yolo_detector:main
